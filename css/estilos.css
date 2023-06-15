@@ -1,0 +1,269 @@
+*{margin: 0px; padding: 0px;}
+
+
+/*CONTENEDOR CABECERA*/
+.cabecera{height: 70px; text-align: right; background: #A3A656;}
+.cabecera div{display: inline-block;font-family: "Inter", sans-serif;}
+.ul-cab{list-style-type: none;}
+.ul-cab ul li{display: inline-block; margin-right: 25px; font-size: 16px;}
+.ul-cab ul li:hover{ color: #FFFF00;}
+.cab-menu{margin-left: 70px; float: left; position: relative; top: 50%; transform: translateY(-50%);}
+.user-idiom{
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.cab-user{margin-right: 30px;}
+.cab-user img{margin-right: 8px;position: relative; top: 2px;}
+.cab-user span{position: relative; bottom: 17px;}
+.cab-idiom {margin-right: 20px; position: relative; bottom: 6px;}
+.cab-idiom span{margin-right: 10px; position: relative; bottom: 10px;}
+#flag{margin-right: 10px; position: relative; top: 2px;}
+#arrow{position: relative; bottom: 10px;}
+
+/*Contenedor Main*/
+.imagen-fondo{width: 100%;height: 100%;}
+.contenedor {
+    position: relative;
+  }
+  
+.contenido-superpuesto {
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    z-index: 1;
+}
+.contenedor h1{
+    font-size: 96px; 
+    font-family: 'Romanesco';
+    font-weight: normal;
+}
+.contenedor p{
+    width: 600px;
+    margin-top: 25px;
+    font-size: 32px; 
+    font-family: 'Inter';
+    font-weight: bolder;
+}
+
+/*Cajetin de reservar*/
+.contenedor-reserva{height: 100px; background: #f2f6f6;}
+
+
+/*contenedor-servicios*/
+#contenedor-servicios{height: 650px;}
+.contenedor-servicios{display: inline;}
+#carta-serv-separacion{margin-right: 134px; margin-left: 134px;}
+
+.carta-servicio{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 100px;
+}
+
+.cajetin-carta-servicio{    
+    background: #A3A656;
+    height: 70px;
+    border-radius: 15px 15px 0 0;
+}
+
+.cajetin-carta-servicio h1{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 32px; 
+    font-family: 'Inter';
+    font-weight: bolder;    
+}
+
+.carta-servicio div:last-child{display: inline;}
+
+.carta-servicio div:last-child a{
+    float: right;
+    padding: 15px;
+    background: #A3A656;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px; 
+    font-family: 'Inter';
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+}
+
+.carta-servicio div:last-child a:hover{
+    background: #384001;
+}
+
+.carta-servicio p{
+    width: 300px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    font-size: 16px; 
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.carta-servicio div:last-child span{
+    position: relative;
+    top: 6px;
+    left: 10px;
+    font-size: 32px; 
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+/*contenedor reserva*/
+.contenedor-reserva{
+    background: #F2F6F6;
+    height: 100px;
+    font-family: 'Inter'; 
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+.contenedor-reserva div {
+    display: inline-block; 
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+.contenedor-reserva input{
+    font-family: 'Inter'; 
+    font-weight: normal;  
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 15px;
+}
+  
+.contenedor-reserva span{margin-right: 20px; margin-left: 20px ;}
+#cajetin-nombre{width: 250px;}
+.cajetin-codigo{color: #9E9A9A; width: 160px;}
+  
+.contenedor4{height: 500px; background: white;}
+.contenedorServicios{display: inline-block}
+
+
+/*Contenedor socios*/
+
+#contenedor-socios{height: 770px; background: #f2f6f6;}
+#titulo-contenedor-socios{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 32px; 
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.contenedor-socios{
+    display: inline;
+    position: relative;
+    top: 120px;
+    left: 200px;
+}
+
+.carta-socio{
+    display: inline-block;
+}
+
+.carta-socio h1{
+    text-align: center;
+    font-size: 32px; 
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.carta-socio div:nth-child(2){
+    margin-top: 50px;
+}
+
+.carta-socio div:nth-child(2) a:hover{
+    background: #384001;
+}
+.carta-socio div:nth-child(2) a{
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    background: #A3A656;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px; 
+    font-family: 'Inter';
+    font-weight: bold;  
+}
+
+.carta-socio div:nth-child(3) ul{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.li{list-style-type: none;}
+
+#carta-socio-sep{
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.borde-carta{
+    background: #ffffff;
+    width: 233px;
+    height: 233px;
+    border: 11px solid #384001;
+    border-radius: 50%;
+}
+.borde-carta img{
+    position: relative;
+    top: 22%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desp-b-1{position: relative; top:-28px;}
+.desp-b-2{position: relative; top:-56px;}
+.desp-b-3{position: relative; right: 15px;}
+.desp-b-4{position: relative; top: 45px; left: 60px;}
+.bord-b{border-bottom: 16px;}
+.marg-b li{margin-bottom: 8px;}
+.a-aling{ text-align: center;}
+
+/*Pie de pagina*/
+.contenedor-pie{
+    height: 97px; 
+    background: #384001;
+    color: #A3A656;
+    font-size: 16px; 
+    font-family: 'Inter';
+    font-weight: normal;
+}
+.cab-pie{margin-left: 70px; position: relative; top: 10px;}
+.contenedor-pie ul{list-style-type: none; display: inline-block;}
+.contenedor-pie div{display: inline-block;}
+.contenedor-pie ul li{display: inline-block;margin-right: 90px;}
+.contenedor-pie ul li:hover{ color: #FFFF00;}
+.cont-redesSociales{position: relative; top: 22px; left: 80px;}
+.img-pie-pagina{display: inline-block;}
+.img-pie-pagina img{display: inline-block; margin-right: 30px;}
+#siguenos{position: relative; bottom: 12px;}
+#facebook{margin-left: 30px; position: relative; top: 2px;}
+#twiter{position: relative; bottom: 2px;}
+#youtube{position: relative; bottom: 3px;}
+
+/*interacciones*/
+a:hover{color: #384001;}
+
+
+
+
+
